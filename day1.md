@@ -19,7 +19,14 @@
 
 ### ตัวอย่าง
 ```python
-if (isAwesome){
-  return true
-}
+txt = "turns out random test cases are "
+คำส = txt.split()  #แยกหาจำนวนประโยค
+num_text= []
+
+for คำ in คำส:
+    จำนวนอักษร = len(คำ)
+    จำนวนอักษรส.append(จำนวนอักษร)
+return  min(จำนวนอักษรส)
+
+
 ```
