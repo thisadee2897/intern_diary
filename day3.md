@@ -13,7 +13,7 @@ def spin_words(sentence):
     out_words =[]
     new_sentence  = ' '
     for word in words:
-        langht = len(word)
+        langht = len(word) 
         if 4 < langht:
             new_word = word[::-1]
             out_words.append(new_word)
